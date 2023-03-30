@@ -16,7 +16,7 @@ maxIterations=$1
         sleep 1
     done   
 
-)
+)&
 
 (
     for (( i=0; i<$maxIterations+2; i++ )); do
@@ -27,6 +27,6 @@ maxIterations=$1
     done
 
 
-)
+)&
 
 sleep $(($maxIterations+4))
